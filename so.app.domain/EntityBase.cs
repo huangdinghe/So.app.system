@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace so.app.domain
 {
-    public class Class1
+    public class EntityBase
     {
     }
 }
