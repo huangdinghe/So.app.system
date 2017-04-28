@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "so.app.ui", "so.app.ui\so.a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "so.app.ui.test", "so.app.ui.test\so.app.ui.test.csproj", "{AA58C301-21A7-449A-A68D-BA76E2D1EB26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "so.app.service", "so.app.service\so.app.service.csproj", "{841C73A0-0CB7-48CC-9BB3-E381375660F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "so.app.component", "so.app.component\so.app.component.csproj", "{7B682B51-3F23-4BD4-8888-AF44AD383635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{AA58C301-21A7-449A-A68D-BA76E2D1EB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA58C301-21A7-449A-A68D-BA76E2D1EB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA58C301-21A7-449A-A68D-BA76E2D1EB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841C73A0-0CB7-48CC-9BB3-E381375660F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841C73A0-0CB7-48CC-9BB3-E381375660F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841C73A0-0CB7-48CC-9BB3-E381375660F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841C73A0-0CB7-48CC-9BB3-E381375660F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B682B51-3F23-4BD4-8888-AF44AD383635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B682B51-3F23-4BD4-8888-AF44AD383635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B682B51-3F23-4BD4-8888-AF44AD383635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B682B51-3F23-4BD4-8888-AF44AD383635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

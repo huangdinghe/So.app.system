@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace so.app.core
+namespace so.app.component
 {
-    public class Class1
+    public class BaseComponent
     {
     }
 }
