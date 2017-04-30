@@ -1,4 +1,6 @@
-﻿using System;
+﻿using IBatisDemo.Service;
+using so.app.domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +10,13 @@ namespace so.app.ui.Controllers
 {
     public class UsersController : Controller
     {
+       IUsersService service = new UsersComponent();
         // GET: Users
         public ActionResult Index()
         {
-            return View();
+            IList<Users> userInfos = service.GetUsersList();
+           // ViewBag.Users = userInfos;
+            return View(userInfos);
         }
     }
 }

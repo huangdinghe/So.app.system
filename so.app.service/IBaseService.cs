@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace so.app.service
 {
-    public class BaseService
+    public interface IBaseService
     {
     }
 }

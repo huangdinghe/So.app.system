@@ -42,5 +42,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\so.app.component\so.app.component.csproj">
+      <Project>{7b682b51-3f23-4bd4-8888-af44ad383635}</Project>
+      <Name>so.app.component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\so.app.service\so.app.service.csproj">
+      <Project>{841c73a0-0cb7-48cc-9bb3-e381375660f2}</Project>
+      <Name>so.app.service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
