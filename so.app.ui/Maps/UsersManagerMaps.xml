@@ -16,7 +16,6 @@
       <result property="Password" column="Password" />
     </resultMap>
   </resultMaps>
-
   <statements>
 
     <!--查找Users所有信息-->

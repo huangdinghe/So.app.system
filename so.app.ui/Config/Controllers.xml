@@ -6,5 +6,4 @@
     <!--属性注入-->   
     <property name="UsersComponent" ref="UsersComponent" />
   </object>
-  
 </objects>
