@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
-using System.Data.SqlClient;
-using so.app.domain;
+﻿using so.app.domain;
 using so.app.manager;
+using so.app.service;
+using System;
+using System.Collections.Generic;
 
-namespace IBatisDemo.Service
+namespace so.app.component
 {
     /// <summary>
     /// Users的具体实现IUsersService的方法
     /// </summary>
-    public class UsersComponent:IUsersService
+    public class UsersComponent : IUsersService
     {
         public int UsersInsertOne(Users userInfo)
         {

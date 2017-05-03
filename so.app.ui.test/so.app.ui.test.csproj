@@ -91,12 +91,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\so.app.ui\so.app.ui.csproj">
-      <Project>{B60F6C51-A16D-4954-B986-33B4F0358444}</Project>
-      <Name>so.app.ui</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

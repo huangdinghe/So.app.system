@@ -72,6 +72,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Maps\UsersManagerMaps.xml">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,13 +8,14 @@ using System.Data.SqlClient;
 using so.app.domain;
 using so.app.manager;
 
-namespace IBatisDemo.Service
+namespace so.app.service
 {
     /// <summary>
     /// 封装Users的操作接口
     /// </summary>
     public interface IUsersService
     {
+        
         int UsersInsertOne(Users userInfo);
 
         Users GetUsers(int id);
