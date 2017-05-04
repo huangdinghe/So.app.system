@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<sqlMap namespace="UserInfo" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<sqlMap namespace="Users" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
   <!-- alias:取别名  assembly:表示类所在的文件  type:表示该类的完整的名称 -->
   <alias>
     <typeAlias alias="Users" assembly="so.app.domain" type="so.app.domain.Users" />
   </alias>
-  
-<!--resulttMaps 类型，映射-->
+
+  <!--resulttMaps 类型，映射-->
   <resultMaps >
     <resultMap id="Users-result" class="Users">
       <result property="Id" column="Id" />
@@ -34,7 +34,7 @@
         </isParameterPresent>
       </dynamic>
     </select>
-    
+
     <!--添加Users信息-->
     <insert id="insert_UsersOne" parameterClass="Users">
       INSERT INTO Users(

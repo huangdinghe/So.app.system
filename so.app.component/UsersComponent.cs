@@ -11,32 +11,30 @@ namespace so.app.component
     /// </summary>
     public class UsersComponent : IUsersService
     {
+        //数据的操作应该要在dal层 固没在此处写具体实现的方法 而是多了一层调用
+        UsersManager usersmanager = new UsersManager();
         public int UsersInsertOne(Users userInfo)
         {
-            Object obj = Mapper.GetMaper.Insert("Users.insert_UsersOne", userInfo);
-            return (int)obj;
+            return usersmanager.UsersInsertOne(userInfo);
         }
 
         public Users GetUsers(int id)
         {
-            return (Users)Mapper.GetMaper.QueryForObject("Users.select_UsersOne", id);
+            return usersmanager.GetUsers(id);          
         }
 
         public IList<Users> GetUsersList()
         {
-            //xml里面配置的格式
-            return Mapper.GetMaper.QueryForList<Users>("Users.select_UsersAll", null);
+            return usersmanager.GetUsersList();
         }
 
         public int DelUsersOne(int id)
         {
-            Object obj = Mapper.GetMaper.Delete("Users.del_UsersOne", id);
-            return (int)obj;
+            return usersmanager.DelUsersOne(id);
         }
         public int UpdateUsers(Users userInfo)
         {
-            Object obj = Mapper.GetMaper.Update("Users.update_UsersOne", userInfo);
-            return (int)obj;
+            return usersmanager.UpdateUsers(userInfo);
         }
     }
 }

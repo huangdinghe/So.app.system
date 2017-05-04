@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IBatisNet.DataMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,19 @@ namespace so.app.service
     /// </summary>
     public interface IBaseService
     {
+        void Configure(object obj);
+
+         void InitMapper();
+
+        //mapper 单例模式
+        ISqlMapper Instance();
+
+        ISqlMapper Get();
+
+        /// <summary>
+        /// RealMarket Mapper
+        /// </summary>
+        ISqlMapper GetMaper { get; set; }
+       
     }
 }

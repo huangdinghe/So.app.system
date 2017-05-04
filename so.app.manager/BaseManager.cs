@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace so.app.manager
 {
         /// <summary>
-        /// BaseManager 基础数据访问类
+        /// BaseManager 基础数据访问类 BaseManager里面不容易封装增删改查的方法 固封装对mapple的操作 因为都要对mapple进行操作
         /// </summary>
         public abstract partial class BaseManager
         {

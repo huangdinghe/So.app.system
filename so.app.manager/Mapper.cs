@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace so.app.manager
 {
     /// <summary>
-    /// 提供统一的mapper接口
+    /// 提供统一的mapper入口 对mapple的操作
     /// </summary>
     public class Mapper
     {
@@ -28,6 +28,7 @@ namespace so.app.manager
             _mapper = builder.ConfigureAndWatch(handler);
         }
 
+        //mapper 单例模式
         public static ISqlMapper Instance()
         {
             if (_mapper == null)
