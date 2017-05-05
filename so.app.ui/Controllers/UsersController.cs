@@ -12,6 +12,7 @@ namespace so.app.ui.Controllers
     public class UsersController : Controller
     {
         IUsersService service = new UsersComponent();
+
         #region 显示用户所有信息
         public ActionResult Index()
         {

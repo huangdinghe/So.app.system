@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace so.app.manager
 {
     /// <summary>
-    /// 提供统一的mapper入口 对mapple的操作
+    /// 提供统一的mapper入口 对mapple的操作 准备改到BaseManager中
     /// </summary>
     public class Mapper
     {
