@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--类全名称，类所在程序集，是否生产单例对象-->
+  <object name="UsersComponent" type="so.app.component.UsersComponent,so.app.component" singleton="false" ></object>
+</objects> 

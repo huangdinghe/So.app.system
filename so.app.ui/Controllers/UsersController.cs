@@ -11,7 +11,8 @@ namespace so.app.ui.Controllers
 {
     public class UsersController : Controller
     {
-        IUsersService service = new UsersComponent();
+       IUsersService service = new UsersComponent();
+       //public IUsersService service { get; set; }
 
         #region 显示用户所有信息
         public ActionResult Index()
