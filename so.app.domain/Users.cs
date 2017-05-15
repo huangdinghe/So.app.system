@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace so.app.domain
 {
-   public class Users:EntityBase
+    /// <summary>
+    /// 用户实体
+    /// </summary>
+    public class Users : EntityBase
     {
-        public int Id { get; set; }
-        public string UserName { get; set; }
-        public string Account { get; set; }
-        public string Password { get; set; }
+        public int users_id { get; set; }
+        public string users_name { get; set; }
+        public string account { get; set; }
+        public string password { get; set; }
+        public bool sex { get; set; }
+        public string email { get; set; }
+        public string address { get; set; }
+        public string telephone { get; set; }
     }
 }

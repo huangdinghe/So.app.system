@@ -181,6 +181,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="providers.config" />
+    <Content Include="so_db\db.JPG" />
     <Content Include="so_db\study_online.sql" />
     <Content Include="开发文档\00 小组成员\So_Group.txt" />
     <Content Include="开发文档\01 需求分析\需求分析说明书.txt" />
